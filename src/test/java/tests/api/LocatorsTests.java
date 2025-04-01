@@ -11,7 +11,6 @@ public class LocatorsTests {
         private final By CATALOG_MENU_ICON = By.xpath(".//i[@class = 'main-menu__handle-icon icon-svg']");
         private final By SPORTS_AND_FITNESS_ICON = By.xpath(".//a[contains(@href, '/c/sports-un-fitness/2pj')]/*[local-name()='svg']");
         private final By SHOW_COOKIE_DETAILS = By.id("CybotCookiebotDialogBodyLevelDetailsButton");
-
         //amazon.de
         private final By SEARCH_BAR_AMAZON = By.id("twotabsearchtextbox");
         private final By CHANGE_ADDRESS = By.xpath(".//span[@class = 'a-button a-spacing-top-base a-button-primary glow-toaster-button glow-toaster-button-submit']");
@@ -19,7 +18,6 @@ public class LocatorsTests {
         private final By LANGUAGE_ICON = By.id("icp-nav-flyout");
         private final By SHOPPING_CART = By.id("nav-cart");
         private final By FREE_DELIVERY_PRODUCTS = By.id("CardInstanceIME2tbwcLWArkiik2PzDxw");
-
         //delfi.lv
         private final By DELFI_LOGO = By.id("eiXrt7zg8UN1");
         private final By NAMES = By.xpath(".//div[@class = 'header-menu__horizontal header-menu__horizontal--left']/ul/li/a");
@@ -28,7 +26,6 @@ public class LocatorsTests {
         private final By CONTACTS_DELFI = By.xpath(".//a[contains(@href, 'https://www.delfi.lv/kontakti')]");
         private final By LANGUAGE = By.xpath(".//div[@class = 'header-menu__horizontal header-menu__horizontal--right']/ul/li/a[@class = 'btn language-switch text-size-7 fw-bold btn-size-auto']");
         private final By SECOND_ARTICLE = By.xpath(".//div[@data-item-id = '505']/article/div[@class = 'px-2 px-md-0']");
-
         //sportsdirect.lv
         private final By SEARCH_BAR_SPORTSDIRECT = By.id("txtSearch");
         private final By LOGIN_ICON = By.id("divSignIn");
