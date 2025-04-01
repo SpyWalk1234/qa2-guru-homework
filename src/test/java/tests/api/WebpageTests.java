@@ -6,10 +6,8 @@ public class WebpageTests {
     }
 
     private void emailCheck() {
-
     }
 
     private void mainPageCheck() {
-
     }
 }
