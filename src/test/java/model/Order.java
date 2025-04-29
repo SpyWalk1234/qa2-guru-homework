@@ -85,9 +85,9 @@ public class Order {
          }
      }
 
-    public void printOrderDetails(Client client) {
+    public void printOrderDetails() {
         System.out.println("-------Receipt Begin--------");
-        System.out.println("User: " + client.getFirstName());
+//        System.out.println("User: " + client.getFirstName());
 
         for (Item p: items) {
             System.out.println(p.getItemName() + ": " + p.getPrice());
