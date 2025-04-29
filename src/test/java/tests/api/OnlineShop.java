@@ -71,9 +71,9 @@ public class OnlineShop {
         orderHelen.addItem(new Item("towel", 2, 20));
 
         System.out.println(peter.printClientDetails());
-        orderPeter.printOrderDetails(peter);
+        orderPeter.printOrderDetails();
 
         System.out.println(helen.printClientDetails());
-        orderHelen.printOrderDetails(helen);
+        orderHelen.printOrderDetails();
     }
 }
